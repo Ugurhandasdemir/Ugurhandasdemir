@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Uğurhan Daşdemir</h1>
 <h3 align="center">I am a student at Atatürk University, working in the fields of Data Science and AI.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ugurhandasdemir&label=Profile%20views&color=0e75b6&style=flat" alt="ugurhandasdemir" /> </p>
 
 - 🌱 I’m currently learning **Scikit-learn**
 
