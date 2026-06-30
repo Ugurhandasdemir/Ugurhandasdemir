@@ -6,7 +6,7 @@
 
 - 📫 How to reach me **ugurhandasdemir@gmail.com**
 
-- 👨‍💻 All of my projects are available at **[https://ugurhandasdemir.xyz/](https://ugurhandasdemir.xyz/)**
+- 👨‍💻 All of my projects are available at **[https://ugurhandasdemir.xyz/](https://ugurhandasdemir.com/)**
 
 - 📄 Know about my experiences **[https://drive.google.com/file/d/1C4onNFj0PAKnKuFVolCKxAj4Y9Yo-8fy/view?usp=sharing](https://drive.google.com/file/d/1C4onNFj0PAKnKuFVolCKxAj4Y9Yo-8fy/view?usp=sharing)**
 
