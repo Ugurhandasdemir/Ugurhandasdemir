@@ -1,6 +1,6 @@
 # Hi 👋, I'm Uğurhan Daşdemir
 
-### Data Science & AI - NicEye Group 
+### Data Science & AI 
 
 - 🔭 I'm currently working on **Data Science & AI**
 
