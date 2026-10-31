@@ -1,4 +1,4 @@
-name: uav-mission
+name: vision-log
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/**", ".github/workflows/mission.yml"]
+    paths: ["scripts/**", ".github/workflows/vision.yml"]
 
 permissions:
   contents: write
@@ -17,18 +17,18 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
-      - name: Generate mission SVG
+      - name: Generate vision SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/gen_mission.py ${{ github.repository_owner }} dist/uav-mission.svg
+        run: python3 scripts/gen_vision.py ${{ github.repository_owner }} dist/vision.svg
       - name: Publish to output branch
         run: |
           cd dist
           git init -q -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add uav-mission.svg
-          git commit -q -m "Update UAV mission $(date -u +%F)"
+          git add vision.svg
+          git commit -q -m "Update vision log $(date -u +%F)"
           git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

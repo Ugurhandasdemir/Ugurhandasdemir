@@ -1,23 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="880" height="230">
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feGaussianBlur stdDeviation="2" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
       <path d="M20 0H0V20" fill="none" stroke="#1a2330" stroke-width="0.6"/>
     </pattern>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#3dff9a" stop-opacity="0"/>
-      <stop offset="1" stop-color="#3dff9a" stop-opacity="0.45"/>
-    </linearGradient>
     <linearGradient id="name" x1="0" x2="1">
       <stop offset="0" stop-color="#e6edf3"/>
       <stop offset="1" stop-color="#7fe8ff"/>
     </linearGradient>
-    <clipPath id="radar"><circle cx="740" cy="112" r="84"/></clipPath>
+    <linearGradient id="scene" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101a24"/>
+      <stop offset="0.62" stop-color="#132131"/>
+      <stop offset="0.62" stop-color="#0d1a14"/>
+      <stop offset="1" stop-color="#0a130f"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fe8ff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7fe8ff" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="view"><rect x="590" y="34" width="250" height="160" rx="6"/></clipPath>
     <clipPath id="type"><rect x="40" y="128" width="0" height="24">
-      <animate attributeName="width" values="0;520;520;0" keyTimes="0;0.35;0.9;1" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="width" values="0;560;560;0" keyTimes="0;0.35;0.9;1" dur="9s" repeatCount="indefinite"/>
     </rect></clipPath>
   </defs>
 
@@ -28,8 +34,8 @@
   </g>
 
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <text x="40" y="52" fill="#7fe8ff" font-size="12" letter-spacing="3">// GROUND CONTROL · LINK ESTABLISHED</text>
-    <circle cx="404" cy="48" r="3.5" fill="#3dff9a">
+    <text x="40" y="52" fill="#7fe8ff" font-size="12" letter-spacing="3">// VISION PIPELINE · MODEL LOADED</text>
+    <circle cx="372" cy="48" r="3.5" fill="#3dff9a">
       <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
     </circle>
   </g>
@@ -37,37 +43,65 @@
   <text x="38" y="104" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="url(#name)" letter-spacing="0.5">Uğurhan Daşdemir</text>
 
   <g clip-path="url(#type)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <text x="40" y="145" fill="#3dff9a" font-size="16">&gt; computer engineer · uav software · applied ai_</text>
+    <text x="40" y="145" fill="#3dff9a" font-size="16">&gt; ai engineer · computer vision · edge ai_</text>
   </g>
 
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b98a8" letter-spacing="1">
-    <text x="40" y="184">PX4 · ROS 2 · MAVLink · Micro-XRCE-DDS · YOLO · PyTorch · LLM agents · n8n</text>
+    <text x="40" y="184">PyTorch · YOLO · OpenCV · VLMs · LLM agents · RAG · edge deployment</text>
   </g>
 
-  <!-- radar -->
-  <g clip-path="url(#radar)">
-    <circle cx="740" cy="112" r="84" fill="#08130f"/>
-    <g fill="none" stroke="#1d4a37" stroke-width="1">
-      <circle cx="740" cy="112" r="28"/><circle cx="740" cy="112" r="56"/><circle cx="740" cy="112" r="83"/>
-      <path d="M656,112H824M740,28V196"/>
+  <!-- canlı tespit görünümü -->
+  <g clip-path="url(#view)">
+    <rect x="590" y="34" width="250" height="160" fill="url(#scene)"/>
+    <g fill="#5d7488">
+      <rect x="771" y="62" width="14" height="7" rx="2"/>
+      <path d="M766,59 L790,72 M790,59 L766,72" stroke="#5d7488" stroke-width="2"/>
+      <ellipse cx="764" cy="58" rx="7" ry="2"/><ellipse cx="792" cy="58" rx="7" ry="2"/>
+      <ellipse cx="764" cy="73" rx="7" ry="2"/><ellipse cx="792" cy="73" rx="7" ry="2"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;-6 3;0 0" dur="5s" repeatCount="indefinite"/>
     </g>
-    <g>
-      <path d="M740,112 L824,112 A84,84 0 0 0 799.4,52.6 Z" fill="url(#sweep)"/>
-      <path d="M740,112 L824,112" stroke="#3dff9a" stroke-width="1.5" filter="url(#glow)"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 740 112" to="360 740 112" dur="4s" repeatCount="indefinite"/>
+    <g fill="#6b7f92">
+      <circle cx="630" cy="118" r="7"/>
+      <rect x="622" y="127" width="16" height="26" rx="6"/>
+      <rect x="623" y="150" width="6" height="24" rx="3"/><rect x="631" y="150" width="6" height="24" rx="3"/>
     </g>
-    <!-- temaslar -->
-    <g fill="#3dff9a" filter="url(#glow)">
-      <circle cx="783" cy="84" r="3"><animate attributeName="opacity" values="0;1;0.15;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="3.63s" repeatCount="indefinite"/></circle>
-      <circle cx="712" cy="70" r="3"><animate attributeName="opacity" values="0;1;0.15;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="2.62s" repeatCount="indefinite"/></circle>
-      <circle cx="702" cy="143" r="3"><animate attributeName="opacity" values="0;1;0.15;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="1.57s" repeatCount="indefinite"/></circle>
+    <g fill="#566b7e">
+      <rect x="686" y="143" width="70" height="20" rx="6"/>
+      <path d="M700,143 L708,129 H734 L744,143 Z"/>
+      <circle cx="702" cy="165" r="7" fill="#2a3644"/><circle cx="740" cy="165" r="7" fill="#2a3644"/>
     </g>
-    <g fill="#ff4d5e" filter="url(#glow)">
-      <circle cx="770" cy="150" r="3.5"><animate attributeName="opacity" values="0;1;0.2;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="0.58s" repeatCount="indefinite"/></circle>
+    <rect x="590" y="0" width="250" height="40" fill="url(#scan)">
+      <animate attributeName="y" values="-6;160;160" keyTimes="0;0.45;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" font-weight="700">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2;0.21;0.95;1" dur="6s" repeatCount="indefinite"/>
+      <rect x="615" y="106" width="30" height="72" rx="2" fill="#ff7ad9" fill-opacity="0.08" stroke="#ff7ad9" stroke-width="1.5" filter="url(#glow)"/>
+      <rect x="615" y="93" width="68" height="12" rx="2" fill="#ff7ad9"/>
+      <text x="619" y="102" fill="#0b0f14">person 0.94</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.33;0.34;0.95;1" dur="6s" repeatCount="indefinite"/>
+      <rect x="682" y="124" width="78" height="50" rx="2" fill="#ffd166" fill-opacity="0.08" stroke="#ffd166" stroke-width="1.5" filter="url(#glow)"/>
+      <rect x="682" y="111" width="50" height="12" rx="2" fill="#ffd166"/>
+      <text x="686" y="120" fill="#0b0f14">car 0.91</text>
+    </g>
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.08;0.09;0.95;1" dur="6s" repeatCount="indefinite"/>
+      <g>
+        <rect x="755" y="51" width="44" height="28" rx="2" fill="#7fe8ff" fill-opacity="0.08" stroke="#7fe8ff" stroke-width="1.5" filter="url(#glow)"/>
+        <rect x="755" y="38" width="62" height="12" rx="2" fill="#7fe8ff"/>
+        <text x="759" y="47" fill="#0b0f14">drone 0.88</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;-6 3;0 0" dur="5s" repeatCount="indefinite"/>
+      </g>
     </g>
   </g>
-  <circle cx="740" cy="112" r="84" fill="none" stroke="#3dff9a" stroke-opacity="0.55" stroke-width="1.2"/>
-  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#5b6b7d" letter-spacing="1" text-anchor="middle">
-    <text x="740" y="212">SEARCH · TRACK · LOCK</text>
+  <rect x="590" y="34" width="250" height="160" rx="6" fill="none" stroke="#7fe8ff" stroke-opacity="0.45"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#5b6b7d" letter-spacing="1">
+    <text x="590" y="210">CAM-0 · LIVE INFERENCE</text>
+    <circle cx="834" cy="207" r="3" fill="#ff4d5e"><animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/></circle>
+    <text x="826" y="210" text-anchor="end" fill="#ff4d5e">REC</text>
   </g>
 </svg>
