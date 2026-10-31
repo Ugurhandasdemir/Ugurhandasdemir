@@ -25,7 +25,6 @@ applied:   [aerial imagery & uav, industrial quality control, medical imaging]
 <p align="center">
   <img src="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/vision.svg" alt="A detector scans my contribution calendar and draws bounding boxes around my busiest days" width="100%" />
 </p>
-<p align="center"><sub>A detector sweeps my last 12 months of commits and boxes the busiest day of each month with its cluster. Rebuilt every night by <a href="scripts/gen_vision.py">a small generator</a>.</sub></p>
 
 ## Toolbox
 
