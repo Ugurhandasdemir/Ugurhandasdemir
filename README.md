@@ -1,55 +1,87 @@
-# Hi, I'm Uğurhan Daşdemir 👋
-
-**Computer Engineer · UAV software & applied AI**
-
-I build software for unmanned aerial vehicles and practical AI tools. My day-to-day work is
-drone autonomy on the PX4 / ROS 2 / MAVLink stack; on the side I run my own home server,
-automate things with n8n and ship small AI-powered apps.
-
-- 🎓 B.Sc. Computer Engineering, Atatürk University (2026)
-- 🛩️ UAV autonomy, path planning, onboard computer vision
-- 🤖 LLM agents, RAG, YOLO / PyTorch, edge AI
-- 🌐 Portfolio: **[ugurhandasdemir.com](https://ugurhandasdemir.com/)**
-- 📫 **ugurhandasdemir@gmail.com**
-
-## Featured projects
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [NoFlyZone](https://github.com/Ugurhandasdemir/NoFlyZone) | Route planning for fixed-wing UAVs that reach a target and return without entering no-fly zones (probabilistic roadmap) | Python |
-| [EscapeUAV](https://github.com/Ugurhandasdemir/EscapeUAV) | Replays two aircraft routes and scores proximity and engagement threat step by step | Python |
-| [3e-vaka-calisma](https://github.com/Ugurhandasdemir/3e-vaka-calisma) | AI-assisted quality control PoC: anomaly detection + YOLO + VLM, human in the loop | PyTorch, Gradio |
-| [Local_deep_research](https://github.com/Ugurhandasdemir/Local_deep_research) | Cross-platform deep research assistant on local LLMs | FastAPI, Flutter |
-| [manga_translator](https://github.com/Ugurhandasdemir/manga_translator) | End-to-end pipeline that detects speech bubbles, OCRs, translates with an LLM and re-typesets | CV, LLM |
-| [Shared_memory_python](https://github.com/Ugurhandasdemir/Shared_memory_python) | Real-time YOLO + QR detection across processes via shared memory | Python, OpenCV |
-| [brain_tumor](https://github.com/Ugurhandasdemir/brain_tumor) | 4-class brain tumor classification from MRI with a Gradio demo | PyTorch |
-| [cv-hazirla-skill](https://github.com/Ugurhandasdemir/cv-hazirla-skill) | Claude Code skill that interviews you and builds an ATS-friendly CV (TR/EN, LaTeX) | LaTeX, Claude Code |
-| [ESP32_LLM](https://github.com/Ugurhandasdemir/ESP32_LLM) | Learning LLM internals from scratch and squeezing a tiny model onto an ESP32 | C++, Python |
-
-## Tech
-
-<p>
-  <img src="https://skillicons.dev/icons?i=py,cpp,ros,linux,docker,pytorch,opencv,flutter,dart,fastapi,django,ts,react&perline=13" alt="tech stack" />
+<p align="center">
+  <img src="assets/header.svg" alt="Uğurhan Daşdemir · UAV software & applied AI" width="100%" />
 </p>
 
-![PX4](https://img.shields.io/badge/PX4-autopilot-1F4A7C)
-![MAVLink](https://img.shields.io/badge/MAVLink-protocol-2E86C1)
-![ROS 2](https://img.shields.io/badge/ROS%202-Humble%20%2F%20Jazzy-22314E?logo=ros)
-![YOLO](https://img.shields.io/badge/YOLO-detection-00FFFF)
-![LangChain](https://img.shields.io/badge/LangChain-agents-1C3C3C?logo=langchain)
-![n8n](https://img.shields.io/badge/n8n-automation-EA4B71?logo=n8n)
+<p align="center">
+  <a href="https://ugurhandasdemir.com/"><img src="https://img.shields.io/badge/Portfolio-ugurhandasdemir.com-0b0f14?style=for-the-badge&labelColor=0b0f14&color=1fa36b" /></a>
+  <a href="https://linkedin.com/in/ugurhandasdemir"><img src="https://img.shields.io/badge/LinkedIn-ugurhandasdemir-0b0f14?style=for-the-badge&logo=linkedin&labelColor=0b0f14&color=0A66C2" /></a>
+  <a href="mailto:ugurhandasdemir@gmail.com"><img src="https://img.shields.io/badge/Email-get%20in%20touch-0b0f14?style=for-the-badge&logo=gmail&labelColor=0b0f14&color=7fe8ff" /></a>
+  <a href="https://drive.google.com/file/d/1C4onNFj0PAKnKuFVolCKxAj4Y9Yo-8fy/view?usp=sharing"><img src="https://img.shields.io/badge/CV-PDF-0b0f14?style=for-the-badge&labelColor=0b0f14&color=ff4d5e" /></a>
+</p>
 
-## Contributions
+I build the software that lets small aircraft think for themselves: autonomy on **PX4 / ROS 2 / MAVLink**,
+route planning around restricted airspace and onboard vision. Off the clock I run my own home lab,
+wire up automations with n8n and ship AI tools I actually use every day.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/github-snake.svg" />
-</picture>
+```yaml
+role:      Computer Engineer · Atatürk University '26
+focus:     [uav autonomy, path planning, onboard computer vision]
+also:      [llm agents, rag, edge ai, home-lab & self-hosting]
+currently: flying code on fixed-wing drones, building my own wearable health app
+```
 
-## Connect
+## Mission log
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ugurhandasdemir-0A66C2?logo=linkedin)](https://linkedin.com/in/ugurhandasdemir)
-[![Kaggle](https://img.shields.io/badge/Kaggle-ugurhandasdemir-20BEFF?logo=kaggle&logoColor=white)](https://kaggle.com/ugurhandasdemir)
-[![YouTube](https://img.shields.io/badge/YouTube-ugurhandasdemir6904-FF0000?logo=youtube)](https://youtube.com/@ugurhandasdemir6904)
-[![CV](https://img.shields.io/badge/CV-PDF-555)](https://drive.google.com/file/d/1C4onNFj0PAKnKuFVolCKxAj4Y9Yo-8fy/view?usp=sharing)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/uav-mission.svg" alt="A UAV flies over my contribution calendar, avoids no-fly zones and locks onto my busiest days" width="100%" />
+</p>
+<p align="center"><sub>A fixed-wing UAV plans a route over my last 12 months of commits, avoids no-fly zones and locks onto the busiest day of each month. Rebuilt every night by <a href="scripts/gen_mission.py">a small generator</a>.</sub></p>
+
+## Selected work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/NoFlyZone">NoFlyZone</a></b><br/>
+      <sub>Fixed-wing UAV route planning that reaches a target and returns home without ever entering a no-fly zone (probabilistic roadmap).</sub><br/>
+      <code>Python</code> <code>PRM</code> <code>path planning</code>
+    </td>
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/EscapeUAV">EscapeUAV</a></b><br/>
+      <sub>Replays two aircraft routes and scores proximity and engagement threat at every step.</sub><br/>
+      <code>Python</code> <code>simulation</code> <code>UAV</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/3e-vaka-calisma">AI Quality Control PoC</a></b><br/>
+      <sub>Anomaly detection + YOLO + vision-language model for industrial inspection, with a human in the loop.</sub><br/>
+      <code>PyTorch</code> <code>YOLO</code> <code>VLM</code>
+    </td>
+    <td valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/Local_deep_research">Local Deep Research</a></b><br/>
+      <sub>Cross-platform deep research assistant running on local LLMs.</sub><br/>
+      <code>FastAPI</code> <code>Flutter</code> <code>LLM</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/manga_translator">Manga Translator</a></b><br/>
+      <sub>Detects speech bubbles, reads them, translates the whole chapter with an LLM and typesets it back.</sub><br/>
+      <code>CV</code> <code>OCR</code> <code>LLM</code>
+    </td>
+    <td valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/Shared_memory_python">Shared Memory Vision</a></b><br/>
+      <sub>Real-time YOLO + QR detection across processes through shared memory, zero-copy frames.</sub><br/>
+      <code>Python</code> <code>OpenCV</code> <code>YOLO</code>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/brain_tumor">Brain Tumor MRI</a></b><br/>
+      <sub>4-class brain tumor classification from MRI, multiple architectures and a Gradio demo.</sub><br/>
+      <code>PyTorch</code> <code>Gradio</code>
+    </td>
+    <td valign="top">
+      <b><a href="https://github.com/Ugurhandasdemir/ESP32_LLM">ESP32 LLM</a></b><br/>
+      <sub>Learning LLM internals from scratch and squeezing a tiny model onto an ESP32.</sub><br/>
+      <code>C++</code> <code>Python</code> <code>edge AI</code>
+    </td>
+  </tr>
+</table>
+
+## Toolbox
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,cpp,ros,linux,docker,pytorch,opencv,flutter,dart,fastapi,django,ts,react&perline=13&theme=dark" alt="Python, C++, ROS, Linux, Docker, PyTorch, OpenCV, Flutter, Dart, FastAPI, Django, TypeScript, React" />
+</p>

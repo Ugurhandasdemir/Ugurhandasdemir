@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 230" width="880" height="230">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1a2330" stroke-width="0.6"/>
+    </pattern>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3dff9a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#3dff9a" stop-opacity="0.45"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#e6edf3"/>
+      <stop offset="1" stop-color="#7fe8ff"/>
+    </linearGradient>
+    <clipPath id="radar"><circle cx="740" cy="112" r="84"/></clipPath>
+    <clipPath id="type"><rect x="40" y="128" width="0" height="24">
+      <animate attributeName="width" values="0;520;520;0" keyTimes="0;0.35;0.9;1" dur="9s" repeatCount="indefinite"/>
+    </rect></clipPath>
+  </defs>
+
+  <rect width="880" height="230" rx="14" fill="#0b0f14"/>
+  <rect width="880" height="230" rx="14" fill="url(#grid)" opacity="0.7"/>
+  <g fill="none" stroke="#7fe8ff" stroke-width="1.5" opacity="0.8">
+    <path d="M10,28V10H28"/><path d="M852,10H870V28"/><path d="M10,202V220H28"/><path d="M852,220H870V202"/>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="40" y="52" fill="#7fe8ff" font-size="12" letter-spacing="3">// GROUND CONTROL · LINK ESTABLISHED</text>
+    <circle cx="404" cy="48" r="3.5" fill="#3dff9a">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <text x="38" y="104" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="44" font-weight="700" fill="url(#name)" letter-spacing="0.5">Uğurhan Daşdemir</text>
+
+  <g clip-path="url(#type)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="40" y="145" fill="#3dff9a" font-size="16">&gt; computer engineer · uav software · applied ai_</text>
+  </g>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b98a8" letter-spacing="1">
+    <text x="40" y="184">PX4 · ROS 2 · MAVLink · Micro-XRCE-DDS · YOLO · PyTorch · LLM agents · n8n</text>
+  </g>
+
+  <!-- radar -->
+  <g clip-path="url(#radar)">
+    <circle cx="740" cy="112" r="84" fill="#08130f"/>
+    <g fill="none" stroke="#1d4a37" stroke-width="1">
+      <circle cx="740" cy="112" r="28"/><circle cx="740" cy="112" r="56"/><circle cx="740" cy="112" r="83"/>
+      <path d="M656,112H824M740,28V196"/>
+    </g>
+    <g>
+      <path d="M740,112 L824,112 A84,84 0 0 0 799.4,52.6 Z" fill="url(#sweep)"/>
+      <path d="M740,112 L824,112" stroke="#3dff9a" stroke-width="1.5" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 740 112" to="360 740 112" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <!-- temaslar -->
+    <g fill="#3dff9a" filter="url(#glow)">
+      <circle cx="783" cy="84" r="3"><animate attributeName="opacity" values="0;1;0.15;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="3.63s" repeatCount="indefinite"/></circle>
+      <circle cx="712" cy="70" r="3"><animate attributeName="opacity" values="0;1;0.15;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="2.62s" repeatCount="indefinite"/></circle>
+      <circle cx="702" cy="143" r="3"><animate attributeName="opacity" values="0;1;0.15;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="1.57s" repeatCount="indefinite"/></circle>
+    </g>
+    <g fill="#ff4d5e" filter="url(#glow)">
+      <circle cx="770" cy="150" r="3.5"><animate attributeName="opacity" values="0;1;0.2;0" keyTimes="0;0.02;0.7;1" dur="4s" begin="0.58s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <circle cx="740" cy="112" r="84" fill="none" stroke="#3dff9a" stroke-opacity="0.55" stroke-width="1.2"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" fill="#5b6b7d" letter-spacing="1" text-anchor="middle">
+    <text x="740" y="212">SEARCH · TRACK · LOCK</text>
+  </g>
+</svg>
