@@ -1,23 +1,47 @@
-# Hi 👋, I'm Uğurhan Daşdemir
+# Hi, I'm Uğurhan Daşdemir 👋
 
-### Data Science & AI 
+**Computer Engineer · UAV software & applied AI**
 
-- 🔭 I'm currently working on **Data Science & AI**
+I build software for unmanned aerial vehicles and practical AI tools. My day-to-day work is
+drone autonomy on the PX4 / ROS 2 / MAVLink stack; on the side I run my own home server,
+automate things with n8n and ship small AI-powered apps.
 
-- 📫 How to reach me **ugurhandasdemir@gmail.com**
+- 🎓 B.Sc. Computer Engineering, Atatürk University (2026)
+- 🛩️ UAV autonomy, path planning, onboard computer vision
+- 🤖 LLM agents, RAG, YOLO / PyTorch, edge AI
+- 🌐 Portfolio: **[ugurhandasdemir.com](https://ugurhandasdemir.com/)**
+- 📫 **ugurhandasdemir@gmail.com**
 
-- 👨‍💻 All of my projects are available at **[https://ugurhandasdemir.com/](https://ugurhandasdemir.com/)**
+## Featured projects
 
-- 📄 Know about my experiences **[CV](https://drive.google.com/file/d/1C4onNFj0PAKnKuFVolCKxAj4Y9Yo-8fy/view?usp=sharing)**
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [NoFlyZone](https://github.com/Ugurhandasdemir/NoFlyZone) | Route planning for fixed-wing UAVs that reach a target and return without entering no-fly zones (probabilistic roadmap) | Python |
+| [EscapeUAV](https://github.com/Ugurhandasdemir/EscapeUAV) | Replays two aircraft routes and scores proximity and engagement threat step by step | Python |
+| [3e-vaka-calisma](https://github.com/Ugurhandasdemir/3e-vaka-calisma) | AI-assisted quality control PoC: anomaly detection + YOLO + VLM, human in the loop | PyTorch, Gradio |
+| [Local_deep_research](https://github.com/Ugurhandasdemir/Local_deep_research) | Cross-platform deep research assistant on local LLMs | FastAPI, Flutter |
+| [manga_translator](https://github.com/Ugurhandasdemir/manga_translator) | End-to-end pipeline that detects speech bubbles, OCRs, translates with an LLM and re-typesets | CV, LLM |
+| [Shared_memory_python](https://github.com/Ugurhandasdemir/Shared_memory_python) | Real-time YOLO + QR detection across processes via shared memory | Python, OpenCV |
+| [brain_tumor](https://github.com/Ugurhandasdemir/brain_tumor) | 4-class brain tumor classification from MRI with a Gradio demo | PyTorch |
+| [cv-hazirla-skill](https://github.com/Ugurhandasdemir/cv-hazirla-skill) | Claude Code skill that interviews you and builds an ATS-friendly CV (TR/EN, LaTeX) | LaTeX, Claude Code |
+| [ESP32_LLM](https://github.com/Ugurhandasdemir/ESP32_LLM) | Learning LLM internals from scratch and squeezing a tiny model onto an ESP32 | C++, Python |
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://github.com/Ugurhandasdemir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="Ugurhandasdemir" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/ugurhandasdemir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ugurhandasdemir" height="30" width="40" /></a>
-<a href="https://kaggle.com/ugurhandasdemir" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="ugurhandasdemir" height="30" width="40" /></a>
-<a href="https://youtube.com/ugurhandasdemir6904" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="ugurhandasdemir6904" height="30" width="40" /></a>
+## Tech
+
+<p>
+  <img src="https://skillicons.dev/icons?i=py,cpp,ros,linux,docker,pytorch,opencv,flutter,dart,fastapi,django,ts,react&perline=13" alt="tech stack" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.mozilla.org/en-US/docs/Web/cplusplus" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=cpp" alt="cplusplus" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/css3" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=css" alt="css3" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/django" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=django" alt="django" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/html5" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=html" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/langchain" target="_blank" rel="noreferrer"> <img src="https://cdn.simpleicons.org/langchain/1C3C3C" alt="langchain" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/linux" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=linux" alt="linux" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/nodejs" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=nodejs" alt="nodejs" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/opencv" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=opencv" alt="opencv" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/oracle" target="_blank" rel="noreferrer"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/python" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=py" alt="python" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/pytorch" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=pytorch" alt="pytorch" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/react" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=react" alt="react" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/scikit_learn" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=scikitlearn" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/typescript" target="_blank" rel="noreferrer"> <img src="https://skillicons.dev/icons?i=ts" alt="typescript" width="40" height="40"/> </a></p>
+![PX4](https://img.shields.io/badge/PX4-autopilot-1F4A7C)
+![MAVLink](https://img.shields.io/badge/MAVLink-protocol-2E86C1)
+![ROS 2](https://img.shields.io/badge/ROS%202-Humble%20%2F%20Jazzy-22314E?logo=ros)
+![YOLO](https://img.shields.io/badge/YOLO-detection-00FFFF)
+![LangChain](https://img.shields.io/badge/LangChain-agents-1C3C3C?logo=langchain)
+![n8n](https://img.shields.io/badge/n8n-automation-EA4B71?logo=n8n)
 
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ugurhandasdemir-0A66C2?logo=linkedin)](https://linkedin.com/in/ugurhandasdemir)
+[![Kaggle](https://img.shields.io/badge/Kaggle-ugurhandasdemir-20BEFF?logo=kaggle&logoColor=white)](https://kaggle.com/ugurhandasdemir)
+[![YouTube](https://img.shields.io/badge/YouTube-ugurhandasdemir6904-FF0000?logo=youtube)](https://youtube.com/@ugurhandasdemir6904)
+[![CV](https://img.shields.io/badge/CV-PDF-555)](https://drive.google.com/file/d/1C4onNFj0PAKnKuFVolCKxAj4Y9Yo-8fy/view?usp=sharing)
