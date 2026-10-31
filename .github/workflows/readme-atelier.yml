@@ -1,0 +1,24 @@
+name: readme-atelier
+
+on:
+  schedule:
+    - cron: "30 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["atelier.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # pinned to a reviewed commit (v1 at 2026-11-01)
+      - uses: monokernn/readme-atelier@37869cbb55133bd8594c068a45d77e10556b2dfb

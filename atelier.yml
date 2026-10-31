@@ -1,0 +1,18 @@
+username: Ugurhandasdemir
+theme: terminal
+name: Uğurhan Daşdemir
+tagline: ai engineer · computer vision · edge ai
+about:
+  - detection, tracking and vision-language models
+  - from pytorch training to real-time on small hardware
+  - llm agents and rag on a self-hosted home lab
+  - ask me about yolo, vlms or edge deployment
+stack: [python, pytorch, tensorflow, opencv, cplusplus, docker, linux, fastapi, flutter, ros]
+socials:
+  github: Ugurhandasdemir
+  website: ugurhandasdemir.com
+  linkedin: ugurhandasdemir
+  email: ugurhandasdemir@gmail.com
+repos: [3e-vaka-calisma, manga_translator, Local_deep_research, Shared_memory_python]
+accent: '#7fe8ff'
+sections: [socials, stack, footer]
