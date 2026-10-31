@@ -23,7 +23,7 @@ applied:   [aerial imagery & uav, industrial quality control, medical imaging]
 ## Vision log
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/vision.svg" alt="A detector scans my contribution calendar and draws bounding boxes around my busiest days" width="100%" />
+  <img src="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/vision.svg" alt="A vision model scans my public projects and labels each one: vision, llm, ml, uav" width="100%" />
 </p>
 
 ## Toolbox
