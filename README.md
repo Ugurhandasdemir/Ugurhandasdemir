@@ -39,6 +39,14 @@ automate things with n8n and ship small AI-powered apps.
 ![LangChain](https://img.shields.io/badge/LangChain-agents-1C3C3C?logo=langchain)
 ![n8n](https://img.shields.io/badge/n8n-automation-EA4B71?logo=n8n)
 
+## Contributions
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/github-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Ugurhandasdemir/Ugurhandasdemir/output/github-snake.svg" />
+</picture>
+
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ugurhandasdemir-0A66C2?logo=linkedin)](https://linkedin.com/in/ugurhandasdemir)
