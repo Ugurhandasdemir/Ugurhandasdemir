@@ -14,11 +14,11 @@ import sys
 import urllib.request
 from html import escape
 
-W, H = 880, 268
-COLS, ROWS = 4, 3
+W, H = 880, 236
+COLS, ROWS = 3, 2
 PADX, TOP, GAPX, GAPY = 28, 72, 12, 12
 CW = (W - 2 * PADX - (COLS - 1) * GAPX) / COLS
-CH = 40
+CH = 50
 DUR = 16.0
 SCAN = 0.8
 
@@ -62,7 +62,19 @@ def fetch(login, token):
             "tags": [t for t in r.get("topics") or [] if t not in {"python"}][:3],
         })
     out.sort(key=lambda x: (x["stars"], x["pushed"]), reverse=True)
-    return out[: COLS * ROWS]
+    picked = []
+    for name, *_ in CLASSES:  # her sınıftan en az bir repo
+        best = next((r for r in out if r["cls"] == name), None)
+        if best:
+            picked.append(best)
+    for r in out:
+        if len(picked) >= COLS * ROWS:
+            break
+        if r not in picked:
+            picked.append(r)
+    picked = picked[: COLS * ROWS]
+    picked.sort(key=lambda x: (x["stars"], x["pushed"]), reverse=True)
+    return picked
 
 
 def kt(*ts):
@@ -122,8 +134,8 @@ def build(repos):
 
     for r, x, y, t in cards:
         o.append(f'<rect x="{x:.1f}" y="{y}" width="{CW:.1f}" height="{CH}" rx="5" fill="{CARD}" stroke="#1f2a36"/>')
-        o.append(f'<text x="{x + 9:.1f}" y="{y + 16}" fill="#e6edf3" font-size="11" font-weight="700">{escape(clip(r["name"], 24))}</text>')
-        o.append(f'<text x="{x + 9:.1f}" y="{y + 31}" fill="#8b98a8" font-size="9">{escape(clip(" · ".join(r["tags"]), 32))}</text>')
+        o.append(f'<text x="{x + 9:.1f}" y="{y + 21}" fill="#e6edf3" font-size="13" font-weight="700">{escape(clip(r["name"], 26))}</text>')
+        o.append(f'<text x="{x + 9:.1f}" y="{y + 38}" fill="#8b98a8" font-size="10">{escape(clip(" · ".join(r["tags"]), 38))}</text>')
 
     gy0, gy1 = TOP - 6, TOP + ROWS * (CH + GAPY)
     span = xe - xs
