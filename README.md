@@ -27,59 +27,6 @@ currently: flying code on fixed-wing drones, building my own wearable health app
 </p>
 <p align="center"><sub>A fixed-wing UAV plans a route over my last 12 months of commits, avoids no-fly zones and locks onto the busiest day of each month. Rebuilt every night by <a href="scripts/gen_mission.py">a small generator</a>.</sub></p>
 
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/NoFlyZone">NoFlyZone</a></b><br/>
-      <sub>Fixed-wing UAV route planning that reaches a target and returns home without ever entering a no-fly zone (probabilistic roadmap).</sub><br/>
-      <code>Python</code> <code>PRM</code> <code>path planning</code>
-    </td>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/EscapeUAV">EscapeUAV</a></b><br/>
-      <sub>Replays two aircraft routes and scores proximity and engagement threat at every step.</sub><br/>
-      <code>Python</code> <code>simulation</code> <code>UAV</code>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/3e-vaka-calisma">AI Quality Control PoC</a></b><br/>
-      <sub>Anomaly detection + YOLO + vision-language model for industrial inspection, with a human in the loop.</sub><br/>
-      <code>PyTorch</code> <code>YOLO</code> <code>VLM</code>
-    </td>
-    <td valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/Local_deep_research">Local Deep Research</a></b><br/>
-      <sub>Cross-platform deep research assistant running on local LLMs.</sub><br/>
-      <code>FastAPI</code> <code>Flutter</code> <code>LLM</code>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/manga_translator">Manga Translator</a></b><br/>
-      <sub>Detects speech bubbles, reads them, translates the whole chapter with an LLM and typesets it back.</sub><br/>
-      <code>CV</code> <code>OCR</code> <code>LLM</code>
-    </td>
-    <td valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/Shared_memory_python">Shared Memory Vision</a></b><br/>
-      <sub>Real-time YOLO + QR detection across processes through shared memory, zero-copy frames.</sub><br/>
-      <code>Python</code> <code>OpenCV</code> <code>YOLO</code>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/brain_tumor">Brain Tumor MRI</a></b><br/>
-      <sub>4-class brain tumor classification from MRI, multiple architectures and a Gradio demo.</sub><br/>
-      <code>PyTorch</code> <code>Gradio</code>
-    </td>
-    <td valign="top">
-      <b><a href="https://github.com/Ugurhandasdemir/ESP32_LLM">ESP32 LLM</a></b><br/>
-      <sub>Learning LLM internals from scratch and squeezing a tiny model onto an ESP32.</sub><br/>
-      <code>C++</code> <code>Python</code> <code>edge AI</code>
-    </td>
-  </tr>
-</table>
-
 ## Toolbox
 
 <p align="center">
