@@ -32,6 +32,6 @@ applied:   [aerial imagery & uav, industrial quality control, medical imaging]
 
 <p align="center"><img src="./atelier/stack.a3754140.svg" width="100%" alt="Tech stack"/></p>
 
-<p align="center"><img src="./atelier/footer.b0dfdc54.svg" width="100%" alt="Footer"/></p>
+<p align="center"><img src="./atelier/footer.ed0abde8.svg" width="100%" alt="Footer"/></p>
 
 <!-- readme-atelier:end -->
